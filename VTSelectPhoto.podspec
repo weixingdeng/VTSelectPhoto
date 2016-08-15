@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "VTSelectPhoto"
-  s.version      = "1.0.0"
+  s.version      = "3.0.0"
   s.summary      = "手机相片选择"
 
   # This description is used to generate tags and improve search results.
@@ -117,7 +117,7 @@ s.source_files  = "VTSelectedPhoto/**/*"
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+   s.framework  = "UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
