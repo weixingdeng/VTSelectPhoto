@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "VTSelectPhoto"
   s.version      = "1.0.0"
-  s.summary      = "简单的使用手机相册和相机选择上传图片"
+  s.summary      = "手机相片选择"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    手机相片选择
+        简单的使用手机相册和相机选择上传图片
                    DESC
 
   s.homepage     = "https://github.com/weixingdeng/VTSelectPhoto"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "VTSelectPhoto/*"
+s.source_files  = "VTSelectPhoto/VTSelectPhoto/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

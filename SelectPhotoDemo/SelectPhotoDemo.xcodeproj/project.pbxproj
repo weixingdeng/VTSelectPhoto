@@ -15,6 +15,7 @@
 		FB205AD91D6159A100F7A6A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB205AD71D6159A100F7A6A6 /* LaunchScreen.storyboard */; };
 		FB205AE41D6159A100F7A6A6 /* SelectPhotoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB205AE31D6159A100F7A6A6 /* SelectPhotoDemoTests.m */; };
 		FB205AEF1D6159A100F7A6A6 /* SelectPhotoDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB205AEE1D6159A100F7A6A6 /* SelectPhotoDemoUITests.m */; };
+		FB205AFE1D616F3B00F7A6A6 /* UIViewController+VTSelectPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = FB205AFD1D616F3B00F7A6A6 /* UIViewController+VTSelectPhoto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FB205AEA1D6159A100F7A6A6 /* SelectPhotoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectPhotoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB205AEE1D6159A100F7A6A6 /* SelectPhotoDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectPhotoDemoUITests.m; sourceTree = "<group>"; };
 		FB205AF01D6159A100F7A6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB205AFC1D616F3B00F7A6A6 /* UIViewController+VTSelectPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+VTSelectPhoto.h"; sourceTree = "<group>"; };
+		FB205AFD1D616F3B00F7A6A6 /* UIViewController+VTSelectPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+VTSelectPhoto.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		FB205ABD1D6159A100F7A6A6 = {
 			isa = PBXGroup;
 			children = (
+				FB205AFC1D616F3B00F7A6A6 /* UIViewController+VTSelectPhoto.h */,
+				FB205AFD1D616F3B00F7A6A6 /* UIViewController+VTSelectPhoto.m */,
 				FB205AC81D6159A100F7A6A6 /* SelectPhotoDemo */,
 				FB205AE21D6159A100F7A6A6 /* SelectPhotoDemoTests */,
 				FB205AED1D6159A100F7A6A6 /* SelectPhotoDemoUITests */,
@@ -272,6 +277,7 @@
 			files = (
 				FB205AD11D6159A100F7A6A6 /* ViewController.m in Sources */,
 				FB205ACE1D6159A100F7A6A6 /* AppDelegate.m in Sources */,
+				FB205AFE1D616F3B00F7A6A6 /* UIViewController+VTSelectPhoto.m in Sources */,
 				FB205ACB1D6159A100F7A6A6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +504,7 @@
 				FB205AF51D6159A100F7A6A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB205AF61D6159A100F7A6A6 /* Build configuration list for PBXNativeTarget "SelectPhotoDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				FB205AF81D6159A100F7A6A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB205AF91D6159A100F7A6A6 /* Build configuration list for PBXNativeTarget "SelectPhotoDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				FB205AFB1D6159A100F7A6A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
